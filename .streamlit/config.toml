@@ -1,0 +1,19 @@
+[theme]
+base = "dark"
+backgroundColor = "#0F0E0C"
+secondaryBackgroundColor = "#1A1916"
+textColor = "#F0EDE6"
+primaryColor = "#C8A96E"
+```
+
+**Ctrl+S** to save. The file should only have those 6 lines — nothing else.
+
+Then run:
+```
+git add .
+```
+```
+git commit -m "fix dark theme"
+```
+```
+git push origin master
